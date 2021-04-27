@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/ff9c1db232.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>DOM Form Validation</title>
+  </head>
+
+  <body>
+    <div class="not-submitted-check" data-submit-check>
+      <i class="fas fa-check-circle"></i> Thank you for contacting us,
+      <span data-user-name></span>
+      <button type="button" class="close"><i class="fas fa-times"></i></button>
+    </div>
+
+    <form id="form" data-form class="form" name="frm">
+      <div class="container">
+        <div data-input-container>
+          <input
+            type="text"
+            placeholder="First Name"
+            class="text"
+            data-input-class
+          /><br /><br />
+          <input
+            type="text"
+            placeholder="Last Name"
+            class="text"
+            data-input-class-second
+          />
+          <br /><br />
+          <div class="gender"></div>
+          <label>Gender</label><br />
+          <input type="radio" name="genre" class="genre--button" />M<br />
+          <input
+            type="radio"
+            name="genre"
+            class="genre--button"
+            checked
+          />F<br /><br />
+        </div>
+        <textarea
+          placeholder="Your message here...."
+          class="text--box"
+        ></textarea
+        ><br />
+        <button type="submit" class="submit" data-submit-button>submit</button>
+      </div>
+      <div class="photo">
+        <img src="https://picsum.photos/250/300" alt="photo" />
+      </div>
+    </form>
+  </body>
+</html>

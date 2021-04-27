@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+.not-submitted-check {
+  background-color: #ddefd7;
+  color: #43903d;
+  padding: 5px;
+  margin: 10px 300px 10px;
+  display: none;
+}
+
+.submitted-check {
+  background-color: #ddefd7;
+  color: #43903d;
+  padding: 5px;
+  margin: 10px 300px 10px;
+}
+
+.text {
+  float: left;
+  width: 50%;
+}
+
+.error {
+  float: left;
+  width: 50%;
+  border-color: red;
+}
+
+.close {
+  border: none;
+  background-color: #ddefd7;
+  color: #43903d;
+  float: right;
+}
+
+.form {
+  border: 1px solid gray;
+  padding: 30px 45px;
+  margin: 0 300px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.genre--button {
+  margin-left: 70px;
+}
+
+.text--box {
+  width: 50%;
+  height: 100px;
+}
+
+.submit {
+  background-color: #4b99ac;
+  border: none;
+  color: white;
+  padding: 5px;
+  margin: 25px 290px 0;
+  border-radius: 0.3rem;
+}
+
+.photo {
+  margin-left: -220px;
+}
+
+.container {
+  width: 1fr;
+}
